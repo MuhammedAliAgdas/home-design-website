@@ -1,0 +1,100 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-container {
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.photo-frame {
+    padding-top: 20px;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-innerframe {
+    border: 10px solid #fff;
+    padding-bottom: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.inner-image {
+    max-width: 100%; /* İçerideki resmin en fazla %100 genişliğe sahip olmasını sağlar */
+    height: auto; /* Oranları koruyarak yüksekliği otomatik ayarlar */
+    display: block; /* İmage'ı bir blok öğe olarak gösterir */
+}
+
+.details-container {
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.user-info {
+    align-items: center; /* Vertical hizalamayı sağlar */
+}
+
+.user-details {
+    display: flex;
+    margin-bottom: 10px; /* İsteğe bağlı, kullanıcı adı ve profil resmi arasına bir boşluk bırakır */
+}
+
+.user-name {
+    margin-left: 9px;
+}
+
+.profile-image {
+    width: 50px; /* İsteğe bağlı, profil resmi boyutunu ayarlar */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%; /* Resmi yuvarlatır, bir profil resmi için tipiktir */
+    margin-left: 20px; /* İsteğe bağlı, kullanıcı adından bir boşluk bırakır */
+}
+
+.description {
+    margin-top: 10px; /* İsteğe bağlı, açıklama ile kullanıcı adı arasında bir boşluk bırakır */
+    padding-left: 30px;
+}
+
+#comments {
+    margin-top: 20px;
+    max-width: 600px; /* Örneğin, belirli bir genişlik değeri */
+}
+
+#comment-input {
+    width: calc(100% - 20px); /* Örneğin, 20 piksel kenar boşluğu düşüldü */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Padding'i genişlik ve yükseklik hesabına dahil etmek için */
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Exit3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Exit3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\css\\Explore.css",
+      "PackagePath": "staticwebassets\\css\\Explore.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\css\\Post.css",
+      "PackagePath": "staticwebassets\\css\\Post.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\css\\ProfileEdit.css",
+      "PackagePath": "staticwebassets\\css\\ProfileEdit.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\js\\ExploreScript.js",
+      "PackagePath": "staticwebassets\\js\\ExploreScript.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\js\\Home.js",
+      "PackagePath": "staticwebassets\\js\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\js\\Post.js",
+      "PackagePath": "staticwebassets\\js\\Post.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\14503c96-1dc3-4289-88dc-a3433d86b27c.png",
+      "PackagePath": "staticwebassets\\resimler\\14503c96-1dc3-4289-88dc-a3433d86b27c.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\1f1d89a9-2a77-4f56-be0d-14241a7ec504.png",
+      "PackagePath": "staticwebassets\\resimler\\1f1d89a9-2a77-4f56-be0d-14241a7ec504.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\278c80dd-03f0-486f-8525-6931adad096e.png",
+      "PackagePath": "staticwebassets\\resimler\\278c80dd-03f0-486f-8525-6931adad096e.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\2f72f792-e76b-4cb8-957a-4c8f560de2d5.png",
+      "PackagePath": "staticwebassets\\resimler\\2f72f792-e76b-4cb8-957a-4c8f560de2d5.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\35d45ee5-1b0c-446c-ba13-d3e3e0373842.png",
+      "PackagePath": "staticwebassets\\resimler\\35d45ee5-1b0c-446c-ba13-d3e3e0373842.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\59837950-69f4-44ad-b34d-3d14287ae479.png",
+      "PackagePath": "staticwebassets\\resimler\\59837950-69f4-44ad-b34d-3d14287ae479.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\5fad32e0-a269-4197-ab1c-572b303a30a6.png",
+      "PackagePath": "staticwebassets\\resimler\\5fad32e0-a269-4197-ab1c-572b303a30a6.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\689eeb77-b6b9-4bfc-9308-cebd25b03368.png",
+      "PackagePath": "staticwebassets\\resimler\\689eeb77-b6b9-4bfc-9308-cebd25b03368.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\73bb1aa4-aa31-4c92-9d70-95176cbc0855.png",
+      "PackagePath": "staticwebassets\\resimler\\73bb1aa4-aa31-4c92-9d70-95176cbc0855.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\ad91f409-e3fa-4b4e-a1e2-c9ce865a5792.png",
+      "PackagePath": "staticwebassets\\resimler\\ad91f409-e3fa-4b4e-a1e2-c9ce865a5792.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\bfa70b21-ce91-40a2-b367-e632e9917cd7.png",
+      "PackagePath": "staticwebassets\\resimler\\bfa70b21-ce91-40a2-b367-e632e9917cd7.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\d7df827f-7e9b-480d-8429-1611e52a722b.png",
+      "PackagePath": "staticwebassets\\resimler\\d7df827f-7e9b-480d-8429-1611e52a722b.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\e24feed2-ca82-4ede-9bbe-e11bd7e2a6c8.png",
+      "PackagePath": "staticwebassets\\resimler\\e24feed2-ca82-4ede-9bbe-e11bd7e2a6c8.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\f3038713-42c2-4821-a80e-8a274b7d4e96.png",
+      "PackagePath": "staticwebassets\\resimler\\f3038713-42c2-4821-a80e-8a274b7d4e96.png"
+    },
+    {
+      "Id": "C:\\Users\\msnci\\OneDrive\\Masaüstü\\ProjeDeneme\\Exit3\\Exit3\\wwwroot\\resimler\\f580f7f9-f3af-4a08-9699-eb76ed8d2908.png",
+      "PackagePath": "staticwebassets\\resimler\\f580f7f9-f3af-4a08-9699-eb76ed8d2908.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Exit3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Exit3.props",
+      "PackagePath": "build\\Exit3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Exit3.props",
+      "PackagePath": "buildMultiTargeting\\Exit3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Exit3.props",
+      "PackagePath": "buildTransitive\\Exit3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

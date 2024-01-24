@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Post";
+}
+@model Tuple<Begeni,Yorumlar>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Medya Sayfası</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Post.css">
+</head>
+<body>
+    <main>
+        <div class="photo-container">
+            <div class="photo-frame">
+                <div class="photo-innerframe">
+                    <img class="inner-image" src="~/resimler/@ViewBag.Resim.ResimUrl" alt="Photo">
+                </div>
+
+                <li>Begenme Sayisi : @ViewBag.Begeni.BegeniSayisi</li>
+                <li>Begenmeme Sayisi : @ViewBag.Begeni.BegenmemeSayisi</li>
+
+                <form asp-controller="Exit" asp-action="Post" method="post">
+                    <input type="hidden" name="resimId" value="@ViewBag.Resim.ResimId" />
+                    <input type="hidden" name="kullaniciId" value="@ViewBag.Kullanici.KullaniciId" />
+                    <button type="submit" name="likeButton" value="like">Like</button>
+                    <button type="submit" name="dislikeButton" value="dislike">Dislike</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="details-container">
+            <div class="user-info">
+                <div class="user-details">
+                    <img src="C:\Users\moonm\OneDrive\Masaüstü\Ex-It\feedProje.png" alt="Profile" class="profile-image">
+                    <p class="user-name"><b>@ViewBag.Kullanici.KullaniciAdi</b></p>
+                </div>
+                <div class="description">
+                    <p>@ViewBag.ResimDetay.ResimAciklama</p>
+                </div>
+            </div>
+            <div id="comments">
+                <form method="post" asp-action="Post">
+                    <input type="hidden" name="resimId" value="@ViewBag.Resim.ResimId" />
+                    <input type="hidden" name="kullaniciId" value="@ViewBag.Kullanici.KullaniciId" />
+                    <input type="text" placeholder="Yorum" name="Yorum" required>
+                    <button type="submit">Yorum Yap</button>
+                </form>
+                @foreach (var yorum in ViewBag.YorumList)
+                {
+                    <li>@yorum.Yorum</li>
+                }
+            </div>
+            <!-- Diğer yorumlar buraya eklenecek -->
+        </div>
+        </div>
+    </main>
+</body>
+<script src="~/js/Post.js"></script>
+</html>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const ResimId = urlParams.get('ResimId');
+
+    console.log('ResimId:', ResimId);
+</script>

@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var ID = "";
+    ViewData["Title"] = "Profil Edit";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/ProfileEdit.css">
+    <title>Profil Düzenleme</title>
+</head>
+<body>
+    <div class="container">
+        <div id="can">
+            <div>
+                <div class="centered-div text-center">
+                    <!-- Profil Resmi -->
+                    <img src="defaultPP.png" alt="Profil Resmi" class="rounded-circle mb-3" width="100">
+
+                    <!-- Kullanıcı Adı ve Gerçek Adı -->
+                    <div class="mb-3">
+                        <h4><span class="text-primary">@ViewBag.KullaniciAdi </span></h4>
+                        <p><span class="text-primary">@ViewBag.Adi </span></p>
+                    </div>
+
+                    <!-- Kullanıcı Adı, Profil Resmi ve Gerçek İsim Değiştirme Butonları -->
+                    <div>
+                        <form method="post" action="/Exit/UpdateUsername ">
+                            <input type="hidden" name="kullaniciId" value="@ID">
+                            <input type="text" name="newUsername" placeholder="Yeni Kullanıcı Adı">
+                            <input type="text" name="oldname" placeholder="Eski">
+                            <button type="submit" class="btn btn-primary btn-sm mb-2">Kullanıcı Adı Değiştir</button>
+                        </form>
+                        <form method="post" action="/Exit/Name">
+                            <input type="hidden" name="kullaniciId" value="@ID">
+                            <input type="text" name="newname" placeholder="Yeni İsim">
+                            <input type="text" name="oldname" placeholder="Eski İsim">
+                            <button type="submit" class="btn btn-primary btn-sm mb-2">İsim Değiştir</button>
+                        </form>
+
+                        <button class="btn btn-primary btn-sm mb-2">Profil Resmi Değiştir</button><br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS ve Popper.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const kullaniciId = urlParams.get('KullaniciId');
+        document.getElementById('hiddenKullaniciId').value = kullaniciId;
+        
+    </script>
+</body>
+</html>

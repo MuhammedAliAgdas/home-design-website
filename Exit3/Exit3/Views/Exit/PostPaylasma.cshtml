@@ -1,0 +1,29 @@
+﻿@model Tuple<ResimEkleme, ResimDetaylari , Etiket>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label for="Description">Açıklama:</label>
+        <input type="text" id="Description" name="ResimAciklama" />
+    </div>
+    <div>
+        <label for="PhotoFile">Fotoğraf Seç:</label>
+        <input type="file" id="PhotoFile" name="ResimUrl" required />
+    </div>
+    <div>
+        <label for="Tags">Etiketler:</label>
+        <select id="Tags" name="EtiketId" multiple>
+            <option value="1">Etiket 1</option>
+            <option value="2">Etiket 2</option>
+            <option value="3">Etiket 3</option>
+            <!-- İstediğiniz kadar etiket ekleyebilirsiniz -->
+        </select>
+    </div>
+    <button type="submit">Yükle</button>
+</form>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const kullaniciId = urlParams.get('KullaniciId');
+
+    console.log('PostPaylasma Kullanıcı ID:', kullaniciId);
+</script>

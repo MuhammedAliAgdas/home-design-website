@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Explore";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/Explore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a asp-controller="Exit" asp-action="Profile" id="profileLink" asp-route-kullaniciId=" 123">PROFİL</a>
+            <a asp-controller="Exit" asp-action="PostPaylasma" id="postPaylasmaLink" asp-route-kullaniciId=" ">PROFİL</a>
+            <a asp-controller="Exit" asp-action="ProfileEdit" id="profileEditLink" asp-route-kullaniciId=" ">PROFİL</a>
+            <div class="icon"><img src="~/images/Elephant.jpeg"></div>
+            <div class="arama">
+                <input class="aramaMetin" type="search" placeholder="Ara">
+                <button class="aramaButon"><img class="resim" width="30px" src="~/images/search.png"></button>
+            </div>
+            <div class="profil"><img src="~/images/Profil.png"></div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="sidebar">
+            <div class="sidebarIn">
+                <div class="filter-options">
+                    <label for="category">Category:</label>
+                    <select id="category">
+                        <option value="all">All</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <!-- Add more categories as needed -->
+                         
+                    </select>
+                </div>
+                <div class="quoteContainer">
+                    <div id="quote"></div>
+                    <div id="author"></div>
+                </div>
+                <!-- Add more filter options as needed -->
+            </div>
+
+            <div class="content2">
+                <!-- Product List -->
+                <div class="product electronics">Product 1 (Electronics)</div>
+                <div class="product clothing">Product 2 (Clothing)</div>
+                <div class="product electronics">Product 3 (Electronics)</div>
+                <div class="product clothing">Product 4 (Clothing)</div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                @foreach (var kullanici in ViewBag.Kullanicilar)
+                {
+                    @foreach (var paylasim in kullanici.Paylasimlar)
+                    {
+                        <div class="card">
+                            <a href="/Exit/Post?ResimId=@paylasim.Resim.ResimId&KullaniciId=@paylasim.Kullanici.KullaniciId">
+                            <img src="~/resimler/@paylasim.Resim.ResimUrl">
+                            <div class="hover-content">
+                                <div class="username">@kullanici.KullaniciAdi</div>
+                                <div class="tags">#@paylasim.Resim.ResimDetaylari.Etiket.EtiketName</div>
+                            </div>
+                            <div class="bottom-border"></div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <script src="~/js/ExploreScript.js"></script>
+</body>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const kullaniciId = urlParams.get('KullaniciId');
+
+    console.log('Kullanıcı ID:', kullaniciId);
+
+    const profileLink = document.getElementById('profileLink');
+    profileLink.href = `/Exit/Profile?KullaniciId=${kullaniciId}`;
+    postPaylasmaLink.href = `/Exit/PostPaylasma?KullaniciId=${kullaniciId}`;
+    profileEditLink.href = `/Exit/ProfileEdit?KullaniciId=${kullaniciId}`;
+</script>
+<script>
+    fetch("https://quotes15.p.rapidapi.com/quotes/random/?language_code=en", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "quotes15.p.rapidapi.com",
+            "x-rapidapi-key": '936f4759a2msh9c39993b32f1e67p158f23jsn6361920539ed'
+        }
+    })
+        .then(response => response.json())
+        .then(response => {
+            console.log(response);
+
+            document.getElementById('quote').innerHTML = response.content;
+            document.getElementById('author').innerHTML = '- ' + response.originator.name + ' -';
+        })
+        .catch(err => {
+            console.log(err);
+        });
+</script>
+
+</html>

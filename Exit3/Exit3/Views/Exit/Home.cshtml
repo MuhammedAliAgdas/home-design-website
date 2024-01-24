@@ -1,0 +1,185 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home";
+    Kullanici kullanici = new Kullanici();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/Home.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="contenier">
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <h2 class="header-logo">ARTI-TECTURE</h2>
+                    </div>
+                    <div class="header-menu">
+                        <ul id="menuItems">
+                            <li><a asp-controller="Exit" asp-action="Explore">KEŞFET</a></li>
+                            <li><a asp-controller="Exit" asp-action="Profile">PROFİL</a></li>
+                            <li><a asp-controller="Exit" asp-action="ProfileEdit">PROFİL DÜZENLEME</a></li>
+                            <li><a asp-controller="Exit" asp-action="PostPaylasma">POST PAYLAŞMA</a></li>
+                            <li><a asp-controller="Exit" asp-action="Post">POST</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#enter">Sign/Log-in</a></li>
+                        </ul>
+                        <i class="fas fa-bars" id="menu-icon" onclick="menuToggle();"></i>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h3>Sanatın İnsanla Buluştuğu Yer</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="about">
+            <div class="container02">
+                <div class="about-tittle">
+                    <h2>HAKKIMIZDA</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-img anime-left">
+                        <img src="Untitled.png" alt="about.png">
+                    </div>
+                    <div class="about-text anime-right">
+                        <h4>Misyonumuz</h4>
+                        <div id="trophy">
+                            <!-- buradaki ikon id adı değişecek css te de -->
+                            <i class="fa-solid fa-trophy"></i><!-- buradaki ikon değişecek-->
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, officiis asperiores repudiand.
+                            <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor tempora hic quam
+                            delectus quas fugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="enter" class="enter">
+        <div class="enter-container">
+            <div class="container" id="container">
+                <div class="form-container sign-up">
+                    @model Kullanici
+                    <form method="post">
+                        <input type="text" placeholder="İsim Soyisim" name="Adi" required>
+                        <input type="text" placeholder="Rumuz" name="KullaniciAdi" required>
+                        <input type="date" placeholder="Doğum Tarihi" name="DogumTarih" required>
+
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="Cinsiyet" value="true"> Erkek
+                            </label>
+                            <label>
+                                <input type="radio" name="Cinsiyet" value="false"> Kadın
+                            </label>
+                        </div>
+
+                        <input type="email" placeholder="E-Posta" name="Mail" required>
+                        <input type="password" placeholder="Şifre" name="Sifre" required>
+
+                        <button type="submit" name="registerButton">Kaydol</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in">
+                    <form>
+                        <h1>Giriş Yapın</h1>
+                        <div id="form-group">
+                            <input type="text" id="nickname" name="nickname" required placeholder="Rumuz"><br>
+                            <input type="text" id="password" name="password" required placeholder="Şifre"><br>
+                        </div>
+                        <button type="button" onclick="checkCredentials()">Giriş</button>
+                    </form>
+                </div>
+                <div class="toggle-container">
+                    <div class="toggle">
+                        <div class="toggle-panel toggle-left">
+                            <h1>Tekrardan Merhaba</h1>
+                            <p>Kullanıcı bilgilerinizi girerek sanatın deriniliklerinde bir yolculuğa çıkın</p>
+                            <!-- "yolculukta iyi eğlenceler"-->
+                            <button class="hidden" id="login">Giriş</button>
+                        </div>
+                        <div class="toggle-panel toggle-right">
+                            <h1>Merhaba</h1>
+                            <p>Kullanıcı bilgilerinizi girerek sanatın deriniliklerinde bir yolculuğa çıkın</p>
+                            <button class="hidden" id="register">Kaydol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="~/js/Home.js"></script>
+    <script>
+        function checkCredentials() {
+            const KullaniciAdi = document.getElementById('nickname').value;
+            const Sifre = document.getElementById('password').value;
+
+            fetch('http://localhost:3002/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                body: JSON.stringify({ KullaniciAdi, Sifre }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.token) {
+                        //alert("Başarı"+data.token);
+                        alert(data.KullaniciId);
+                        window.open(`Exit/Explore?KullaniciId=${data.KullaniciId}`, '_blank');
+                    } else {
+                        alert("Başarısız Giriş Lütfen Tekrar Deneyin");
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.anime-left', {
+            origin: 'left',
+            duration: 1000,
+            distance: '20rem',
+            delay: 300
+        });
+        sr.reveal('.anime-right', {
+            origin: 'right',
+            duration: 1000,
+            distance: '20rem',
+            delay: 300
+        });
+    </script>
+    <script>
+        var menuItems = document.getElementById('menuItems');
+        menuItems.style.maxHeight = "0px";
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
